@@ -61,8 +61,10 @@ library
   build-depends:
       base >=4.7 && <5
     , containers
+    , matrix
     , parsec
     , split
+    , vector
   default-language: Haskell2010
 
 executable adventofcode-exe
@@ -78,8 +80,10 @@ executable adventofcode-exe
       adventofcode
     , base >=4.7 && <5
     , containers
+    , matrix
     , parsec
     , split
+    , vector
   default-language: Haskell2010
 
 test-suite adventofcode-test
@@ -96,6 +100,8 @@ test-suite adventofcode-test
       adventofcode
     , base >=4.7 && <5
     , containers
+    , matrix
     , parsec
     , split
+    , vector
   default-language: Haskell2010
