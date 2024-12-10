@@ -26,6 +26,7 @@ dependencies:
 - containers
 - matrix
 - vector
+- search-algorithms
 
 ghc-options:
 - -Wall
