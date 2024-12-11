@@ -27,6 +27,7 @@ dependencies:
 - matrix
 - vector
 - search-algorithms
+- mtl
 
 ghc-options:
 - -Wall
